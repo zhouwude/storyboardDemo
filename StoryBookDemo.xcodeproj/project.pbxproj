@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		620C4C761C23E7F6009DD956 /* zhouwude.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620C4C741C23E7F6009DD956 /* zhouwude.storyboard */; };
+		620CEB921C2A6669002863D9 /* DestinationViewCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 620CEB911C2A6669002863D9 /* DestinationViewCon.m */; };
 		621C3A8E1A42EE4200CF0DEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 621C3A8D1A42EE4200CF0DEB /* main.m */; };
 		621C3A911A42EE4200CF0DEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 621C3A901A42EE4200CF0DEB /* AppDelegate.m */; };
 		621C3A941A42EE4200CF0DEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 621C3A931A42EE4200CF0DEB /* ViewController.m */; };
@@ -46,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		620C4C751C23E7F6009DD956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/zhouwude.storyboard; sourceTree = "<group>"; };
+		620CEB901C2A6669002863D9 /* DestinationViewCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestinationViewCon.h; sourceTree = "<group>"; };
+		620CEB911C2A6669002863D9 /* DestinationViewCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestinationViewCon.m; sourceTree = "<group>"; };
 		621C3A881A42EE4200CF0DEB /* StoryBookDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryBookDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		621C3A8C1A42EE4200CF0DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		621C3A8D1A42EE4200CF0DEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -167,6 +172,8 @@
 				627F04C21A4D55350065B8BA /* blueViewController.m */,
 				627F04BE1A4D50AB0065B8BA /* yellowViewController.h */,
 				627F04BF1A4D50AB0065B8BA /* yellowViewController.m */,
+				620CEB901C2A6669002863D9 /* DestinationViewCon.h */,
+				620CEB911C2A6669002863D9 /* DestinationViewCon.m */,
 				62D1CCA21BA2D8BC0082EAC3 /* ACon.h */,
 				62D1CCA31BA2D8BC0082EAC3 /* ACon.m */,
 				62D1CCA51BA2D8CB0082EAC3 /* BCon.h */,
@@ -177,6 +184,7 @@
 				62D1CCAC1BA2E5010082EAC3 /* customCell.m */,
 				62BA0B8E1A4A68C0007C5F05 /* thirdViewController.xib */,
 				621C3A951A42EE4200CF0DEB /* Main.storyboard */,
+				620C4C741C23E7F6009DD956 /* zhouwude.storyboard */,
 				621C3A981A42EE4200CF0DEB /* Images.xcassets */,
 				621C3A9A1A42EE4200CF0DEB /* LaunchScreen.xib */,
 				621C3A8B1A42EE4200CF0DEB /* Supporting Files */,
@@ -293,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62BA0B901A4A68C0007C5F05 /* thirdViewController.xib in Resources */,
+				620C4C761C23E7F6009DD956 /* zhouwude.storyboard in Resources */,
 				621C3A971A42EE4200CF0DEB /* Main.storyboard in Resources */,
 				62B690F61A43F26400274A74 /* BbsImg141576273566262_600*360.jpg in Resources */,
 				621C3A9C1A42EE4200CF0DEB /* LaunchScreen.xib in Resources */,
@@ -347,6 +356,7 @@
 				62BA0BC51A4A97B1007C5F05 /* bookViewController.m in Sources */,
 				627F04BA1A4D3CD70065B8BA /* windeSegueViewController.m in Sources */,
 				621C3AB31A42F66D00CF0DEB /* ZWDTableViewController.m in Sources */,
+				620CEB921C2A6669002863D9 /* DestinationViewCon.m in Sources */,
 				62D1CCA71BA2D8CB0082EAC3 /* BCon.m in Sources */,
 				627F04BD1A4D41BA0065B8BA /* GreenViewController.m in Sources */,
 				62B690F11A43C72D00274A74 /* modelData.m in Sources */,
@@ -372,6 +382,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		620C4C741C23E7F6009DD956 /* zhouwude.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				620C4C751C23E7F6009DD956 /* Base */,
+			);
+			name = zhouwude.storyboard;
+			sourceTree = "<group>";
+		};
 		621C3A951A42EE4200CF0DEB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -476,6 +494,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = StoryBookDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.haier.3dprint;
@@ -492,6 +511,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = StoryBookDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.haier.3dprint;
