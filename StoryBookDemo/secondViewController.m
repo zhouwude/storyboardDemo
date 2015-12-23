@@ -20,11 +20,12 @@
     [self performSegueWithIdentifier:@"zhouwude" sender:@"send Message"];
     
 }
+//应该是你的segue是从按钮指向新页面的，也就是由按钮触发segue。所以sender指向按钮了。如果是navigation controller，页面之间创建segue，那么sender就是页面。另外在代码中，显示执行- (void)performSegueWithIdentifier:(NSString *)identifier sender:(id)sender，可以将传进你想赋予的源头，即页面而不是button为sender。
 //由于 对方 似一个子类的Viewcontroller 所以我们可以使用KVC的方式传值。
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     
     UIViewController *view = segue.destinationViewController;
-    //这里的sender的就是上一个方法中 [self performSegueWithIdentifier:@"zhouwude" sender:@"send Message"]; 中sender的值。
+    //这里的sender的就是上一个方法中 [self performSegueWithIdentifier:@"zhouwude" sender:@"send Message"]; 中sender的值。如果没有使用手动segue方法则sender的值为 你点击跳转的那个按钮 比如你点击一个button 跳转到下一个页面 则sender就是那个button
     NSLog(@"    +++++++%@",sender);
     // 避免警告 使用 kvc传值
     if ([view respondsToSelector:@selector(setZhouwude:)]){

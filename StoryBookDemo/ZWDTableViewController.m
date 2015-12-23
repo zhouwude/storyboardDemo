@@ -34,6 +34,7 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    NSLog(@"jjjjjjjjj%@",sender);
     if ([segue.identifier isEqualToString:@"AddPlayer"])
     {
         UINavigationController *navigationController =
