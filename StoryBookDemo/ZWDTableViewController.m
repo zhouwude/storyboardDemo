@@ -9,6 +9,7 @@
 #import "ZWDTableViewController.h"
 #import "modelData.h"
 #import "CusTableViewCell.h"
+#import "ZWDIntrinsicViewController.h"
 @interface ZWDTableViewController ()
 
 @end
@@ -78,7 +79,12 @@
     // Return the number of sections.
     return 1;
 }
-
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [self.navigationController pushViewController:[[ZWDIntrinsicViewController alloc] init] animated:YES];
+    
+    
+    
+}
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
     // Return the number of rows in the section.

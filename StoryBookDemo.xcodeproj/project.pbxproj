@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		620C4C761C23E7F6009DD956 /* zhouwude.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620C4C741C23E7F6009DD956 /* zhouwude.storyboard */; };
 		620CEB921C2A6669002863D9 /* DestinationViewCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 620CEB911C2A6669002863D9 /* DestinationViewCon.m */; };
+		620CEBA21C2B7C1B002863D9 /* 1122433-504c91ea7665964b.png.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 620CEBA11C2B7C1B002863D9 /* 1122433-504c91ea7665964b.png.jpeg */; };
+		620CEBA61C2B7C5D002863D9 /* ZWDIntrinsicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 620CEBA41C2B7C5D002863D9 /* ZWDIntrinsicViewController.m */; };
+		620CEBA71C2B7C5D002863D9 /* ZWDIntrinsicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 620CEBA51C2B7C5D002863D9 /* ZWDIntrinsicViewController.xib */; };
+		620CEBAA1C2B7DCE002863D9 /* intrinsicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 620CEBA91C2B7DCE002863D9 /* intrinsicView.m */; };
 		621C3A8E1A42EE4200CF0DEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 621C3A8D1A42EE4200CF0DEB /* main.m */; };
 		621C3A911A42EE4200CF0DEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 621C3A901A42EE4200CF0DEB /* AppDelegate.m */; };
 		621C3A941A42EE4200CF0DEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 621C3A931A42EE4200CF0DEB /* ViewController.m */; };
@@ -21,6 +25,8 @@
 		627F04BD1A4D41BA0065B8BA /* GreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 627F04BC1A4D41BA0065B8BA /* GreenViewController.m */; };
 		627F04C01A4D50AB0065B8BA /* yellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 627F04BF1A4D50AB0065B8BA /* yellowViewController.m */; };
 		627F04C31A4D55350065B8BA /* blueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 627F04C21A4D55350065B8BA /* blueViewController.m */; };
+		6298CE4F1C2BFD030003297B /* UICoordinateSpaceCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6298CE4D1C2BFD030003297B /* UICoordinateSpaceCon.m */; };
+		6298CE501C2BFD030003297B /* UICoordinateSpaceCon.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6298CE4E1C2BFD030003297B /* UICoordinateSpaceCon.xib */; };
 		62B690F11A43C72D00274A74 /* modelData.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B690F01A43C72D00274A74 /* modelData.m */; };
 		62B690F41A43EC9400274A74 /* CusTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B690F31A43EC9400274A74 /* CusTableViewCell.m */; };
 		62B690F61A43F26400274A74 /* BbsImg141576273566262_600*360.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62B690F51A43F26400274A74 /* BbsImg141576273566262_600*360.jpg */; };
@@ -51,6 +57,12 @@
 		620C4C751C23E7F6009DD956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/zhouwude.storyboard; sourceTree = "<group>"; };
 		620CEB901C2A6669002863D9 /* DestinationViewCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestinationViewCon.h; sourceTree = "<group>"; };
 		620CEB911C2A6669002863D9 /* DestinationViewCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestinationViewCon.m; sourceTree = "<group>"; };
+		620CEBA11C2B7C1B002863D9 /* 1122433-504c91ea7665964b.png.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "1122433-504c91ea7665964b.png.jpeg"; path = "../1122433-504c91ea7665964b.png.jpeg"; sourceTree = "<group>"; };
+		620CEBA31C2B7C5D002863D9 /* ZWDIntrinsicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDIntrinsicViewController.h; sourceTree = "<group>"; };
+		620CEBA41C2B7C5D002863D9 /* ZWDIntrinsicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDIntrinsicViewController.m; sourceTree = "<group>"; };
+		620CEBA51C2B7C5D002863D9 /* ZWDIntrinsicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZWDIntrinsicViewController.xib; sourceTree = "<group>"; };
+		620CEBA81C2B7DCE002863D9 /* intrinsicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = intrinsicView.h; sourceTree = "<group>"; };
+		620CEBA91C2B7DCE002863D9 /* intrinsicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = intrinsicView.m; sourceTree = "<group>"; };
 		621C3A881A42EE4200CF0DEB /* StoryBookDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryBookDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		621C3A8C1A42EE4200CF0DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		621C3A8D1A42EE4200CF0DEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -74,6 +86,9 @@
 		627F04BF1A4D50AB0065B8BA /* yellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yellowViewController.m; sourceTree = "<group>"; };
 		627F04C11A4D55350065B8BA /* blueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blueViewController.h; sourceTree = "<group>"; };
 		627F04C21A4D55350065B8BA /* blueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = blueViewController.m; sourceTree = "<group>"; };
+		6298CE4C1C2BFD030003297B /* UICoordinateSpaceCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICoordinateSpaceCon.h; sourceTree = "<group>"; };
+		6298CE4D1C2BFD030003297B /* UICoordinateSpaceCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICoordinateSpaceCon.m; sourceTree = "<group>"; };
+		6298CE4E1C2BFD030003297B /* UICoordinateSpaceCon.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UICoordinateSpaceCon.xib; sourceTree = "<group>"; };
 		62B690EF1A43C72D00274A74 /* modelData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modelData.h; sourceTree = "<group>"; };
 		62B690F01A43C72D00274A74 /* modelData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = modelData.m; sourceTree = "<group>"; };
 		62B690F21A43EC9400274A74 /* CusTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CusTableViewCell.h; sourceTree = "<group>"; };
@@ -120,9 +135,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		620CEBA01C2B7922002863D9 /*  intrinsicView */ = {
+			isa = PBXGroup;
+			children = (
+				620CEBA11C2B7C1B002863D9 /* 1122433-504c91ea7665964b.png.jpeg */,
+				620CEBA31C2B7C5D002863D9 /* ZWDIntrinsicViewController.h */,
+				620CEBA41C2B7C5D002863D9 /* ZWDIntrinsicViewController.m */,
+				620CEBA81C2B7DCE002863D9 /* intrinsicView.h */,
+				620CEBA91C2B7DCE002863D9 /* intrinsicView.m */,
+				620CEBA51C2B7C5D002863D9 /* ZWDIntrinsicViewController.xib */,
+				6298CE4C1C2BFD030003297B /* UICoordinateSpaceCon.h */,
+				6298CE4D1C2BFD030003297B /* UICoordinateSpaceCon.m */,
+				6298CE4E1C2BFD030003297B /* UICoordinateSpaceCon.xib */,
+			);
+			path = " intrinsicView";
+			sourceTree = "<group>";
+		};
 		621C3A7F1A42EE4200CF0DEB = {
 			isa = PBXGroup;
 			children = (
+				620CEBA01C2B7922002863D9 /*  intrinsicView */,
 				62B690F51A43F26400274A74 /* BbsImg141576273566262_600*360.jpg */,
 				621C3A8A1A42EE4200CF0DEB /* StoryBookDemo */,
 				621C3AA41A42EE4200CF0DEB /* StoryBookDemoTests */,
@@ -300,11 +332,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				620CEBA21C2B7C1B002863D9 /* 1122433-504c91ea7665964b.png.jpeg in Resources */,
 				62BA0B901A4A68C0007C5F05 /* thirdViewController.xib in Resources */,
 				620C4C761C23E7F6009DD956 /* zhouwude.storyboard in Resources */,
 				621C3A971A42EE4200CF0DEB /* Main.storyboard in Resources */,
 				62B690F61A43F26400274A74 /* BbsImg141576273566262_600*360.jpg in Resources */,
 				621C3A9C1A42EE4200CF0DEB /* LaunchScreen.xib in Resources */,
+				620CEBA71C2B7C5D002863D9 /* ZWDIntrinsicViewController.xib in Resources */,
+				6298CE501C2BFD030003297B /* UICoordinateSpaceCon.xib in Resources */,
 				621C3A991A42EE4200CF0DEB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,12 +378,14 @@
 				627F04C01A4D50AB0065B8BA /* yellowViewController.m in Sources */,
 				62B690F91A440E7900274A74 /* TableDetailViewController.m in Sources */,
 				621C3A941A42EE4200CF0DEB /* ViewController.m in Sources */,
+				620CEBAA1C2B7DCE002863D9 /* intrinsicView.m in Sources */,
 				62B690F41A43EC9400274A74 /* CusTableViewCell.m in Sources */,
 				621C3A911A42EE4200CF0DEB /* AppDelegate.m in Sources */,
 				62BA0B8B1A4A63E4007C5F05 /* secondViewController.m in Sources */,
 				627F04C31A4D55350065B8BA /* blueViewController.m in Sources */,
 				62D1CCA41BA2D8BC0082EAC3 /* ACon.m in Sources */,
 				62BA0B8F1A4A68C0007C5F05 /* thirdViewController.m in Sources */,
+				6298CE4F1C2BFD030003297B /* UICoordinateSpaceCon.m in Sources */,
 				62D1CCAD1BA2E5010082EAC3 /* customCell.m in Sources */,
 				621C3A8E1A42EE4200CF0DEB /* main.m in Sources */,
 				62BA0B881A4A5CE5007C5F05 /* zhouwudeViewController.m in Sources */,
@@ -357,6 +394,7 @@
 				627F04BA1A4D3CD70065B8BA /* windeSegueViewController.m in Sources */,
 				621C3AB31A42F66D00CF0DEB /* ZWDTableViewController.m in Sources */,
 				620CEB921C2A6669002863D9 /* DestinationViewCon.m in Sources */,
+				620CEBA61C2B7C5D002863D9 /* ZWDIntrinsicViewController.m in Sources */,
 				62D1CCA71BA2D8CB0082EAC3 /* BCon.m in Sources */,
 				627F04BD1A4D41BA0065B8BA /* GreenViewController.m in Sources */,
 				62B690F11A43C72D00274A74 /* modelData.m in Sources */,

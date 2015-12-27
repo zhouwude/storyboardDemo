@@ -55,7 +55,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    NSLog(@"viewDidload");
     
     
     // 核心  使用AutoLayout之后，把view显示到屏幕上面大体分成3步。
@@ -154,21 +154,44 @@
     
 
 }
+/*
+ 
+ 我们从 View Controller 的生命周期来分析这个问题：
+ 
+ viewDidLoad
+ viewWillAppear
+ viewWillLayoutSubviews
+ viewDidLayoutSubviews
+ viewDidAppear
+ viewWillDisappear
+ viewDidDisappear
+
+ */
 -(void)viewWillLayoutSubviews{
     [super viewWillLayoutSubviews];
     
-    
+    NSLog(@"viewwillayoutsubview");
     NSLog(@"获得 topALyoutguide  will 的 %@",@(self.topLayoutGuide.length));
     
 }
 -(void)viewDidLayoutSubviews{
-    
+    NSLog(@"viewdidayoutsubview");
     [super viewDidLayoutSubviews];
     
     
     NSLog(@"获得 topALyoutguide  did 的 %@",@(self.topLayoutGuide.length));
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    NSLog(@"viewwillappear");
+    [super viewWillAppear:animated];
+    
+}
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    NSLog(@"---viewdidappear");
+    
+}
 -(BOOL)prefersStatusBarHidden{
     BOOL a = arc4random()%2;
     return a;
