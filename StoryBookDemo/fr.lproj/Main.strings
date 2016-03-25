@@ -1,0 +1,141 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "0ht-Bl-2p8"; */
+"0ht-Bl-2p8.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "red"; ObjectID = "2kU-om-TdE"; */
+"2kU-om-TdE.normalTitle" = "red";
+
+/* Class = "UILabel"; text = "第一个界面"; ObjectID = "34Y-Er-w9Q"; */
+"34Y-Er-w9Q.text" = "第一个界面";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "5nS-LE-Dib"; */
+"5nS-LE-Dib.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "zhouwude"; ObjectID = "8Mj-Bv-e70"; */
+"8Mj-Bv-e70.title" = "zhouwude";
+
+/* Class = "UIButton"; normalTitle = "页面跳转"; ObjectID = "9nM-EO-FkM"; */
+"9nM-EO-FkM.normalTitle" = "页面跳转";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "BkD-wN-0hz"; */
+"BkD-wN-0hz.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "embed"; ObjectID = "F80-Cv-E14"; */
+"F80-Cv-E14.title" = "embed";
+
+/* Class = "UINavigationItem"; title = "segue2"; ObjectID = "FR4-lF-jZc"; */
+"FR4-lF-jZc.title" = "segue2";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "GkG-te-unW"; */
+"GkG-te-unW.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "HOk-Cq-Irq"; */
+"HOk-Cq-Irq.normalTitle" = "Button";
+
+/* Class = "UITabBarController"; title = "nimabi"; ObjectID = "HOs-1k-TZI"; */
+"HOs-1k-TZI.title" = "nimabi";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "HgY-eQ-a7P"; */
+"HgY-eQ-a7P.title" = "Item";
+
+/* Class = "UINavigationItem"; title = "city"; ObjectID = "II6-cJ-hO7"; */
+"II6-cJ-hO7.title" = "city";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "IRb-P1-G8G"; */
+"IRb-P1-G8G.text" = "Title";
+
+/* Class = "UITextField"; placeholder = "输入内容"; ObjectID = "M6B-Hg-7st"; */
+"M6B-Hg-7st.placeholder" = "输入内容";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "MQh-SY-k64"; */
+"MQh-SY-k64.text" = "Detail";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "NuG-RV-7et"; */
+"NuG-RV-7et.title" = "Item";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Nym-jm-yPG"; */
+"Nym-jm-yPG.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "segue1"; ObjectID = "Op9-bB-S1v"; */
+"Op9-bB-S1v.title" = "segue1";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Shg-0X-br9"; */
+"Shg-0X-br9.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "yellew"; ObjectID = "Teb-g9-5uN"; */
+"Teb-g9-5uN.normalTitle" = "yellew";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "Vr5-ns-z6i"; */
+"Vr5-ns-z6i.title" = "Title";
+
+/* Class = "UITabBarItem"; title = "other"; ObjectID = "WUh-mI-a8C"; */
+"WUh-mI-a8C.title" = "other";
+
+/* Class = "UIButton"; normalTitle = "green"; ObjectID = "Wuh-m9-x1i"; */
+"Wuh-m9-x1i.normalTitle" = "green";
+
+/* Class = "UILabel"; text = "game"; ObjectID = "Wvn-r6-gXy"; */
+"Wvn-r6-gXy.text" = "game";
+
+/* Class = "UINavigationItem"; title = "heheA"; ObjectID = "YBx-M0-IWh"; */
+"YBx-M0-IWh.title" = "heheA";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "YJq-8F-yOd"; */
+"YJq-8F-yOd.text" = "Title";
+
+/* Class = "UITabBarItem"; title = "nav"; ObjectID = "Ygs-6H-Uwr"; */
+"Ygs-6H-Uwr.title" = "nav";
+
+/* Class = "UITableViewSection"; headerTitle = "playName1"; ObjectID = "ZJB-aB-g4x"; */
+"ZJB-aB-g4x.headerTitle" = "playName1";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "ZmF-cs-gbJ"; */
+"ZmF-cs-gbJ.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "backred"; ObjectID = "bmb-xI-PmY"; */
+"bmb-xI-PmY.normalTitle" = "backred";
+
+/* Class = "UINavigationItem"; title = "uminSegue"; ObjectID = "buE-cT-Klm"; */
+"buE-cT-Klm.title" = "uminSegue";
+
+/* Class = "UILabel"; text = "三页面"; ObjectID = "ebK-V4-kSw"; */
+"ebK-V4-kSw.text" = "三页面";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gyW-FC-dVt"; */
+"gyW-FC-dVt.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "返回"; ObjectID = "iWT-Qm-G5h"; */
+"iWT-Qm-G5h.normalTitle" = "返回";
+
+/* Class = "UIButton"; normalTitle = "enter blue"; ObjectID = "j4I-y1-sXl"; */
+"j4I-y1-sXl.normalTitle" = "enter blue";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jnS-zj-AuV"; */
+"jnS-zj-AuV.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ne6-0J-cY5"; */
+"ne6-0J-cY5.text" = "Label";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "qxA-zs-ySb"; */
+"qxA-zs-ySb.text" = "Title";
+
+/* Class = "UILabel"; text = "第二个界面"; ObjectID = "rhe-Sb-3Sp"; */
+"rhe-Sb-3Sp.text" = "第二个界面";
+
+/* Class = "UINavigationItem"; title = "twoNai"; ObjectID = "sQ1-iP-3QL"; */
+"sQ1-iP-3QL.title" = "twoNai";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "uT9-WG-Bwa"; */
+"uT9-WG-Bwa.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "go green"; ObjectID = "uxC-J0-7RR"; */
+"uxC-J0-7RR.normalTitle" = "go green";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "v73-Oi-eI7"; */
+"v73-Oi-eI7.title" = "Item";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "vX7-m0-NVT"; */
+"vX7-m0-NVT.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label\nzhouwude"; ObjectID = "vw0-Qm-k9f"; */
+"vw0-Qm-k9f.text" = "Label\nzhouwude";

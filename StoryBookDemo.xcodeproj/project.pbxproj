@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62047FDD1C802D2500C49858 /* Main1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62047FDC1C802D2500C49858 /* Main1.storyboard */; };
 		620C4C761C23E7F6009DD956 /* zhouwude.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620C4C741C23E7F6009DD956 /* zhouwude.storyboard */; };
 		620CEB921C2A6669002863D9 /* DestinationViewCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 620CEB911C2A6669002863D9 /* DestinationViewCon.m */; };
 		620CEBA21C2B7C1B002863D9 /* 1122433-504c91ea7665964b.png.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 620CEBA11C2B7C1B002863D9 /* 1122433-504c91ea7665964b.png.jpeg */; };
@@ -41,6 +42,9 @@
 		62D1CCAA1BA2E2EF0082EAC3 /* basicCellCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D1CCA91BA2E2EF0082EAC3 /* basicCellCon.m */; };
 		62D1CCAD1BA2E5010082EAC3 /* customCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D1CCAC1BA2E5010082EAC3 /* customCell.m */; };
 		62DD9B391A4964F800171347 /* gameTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DD9B381A4964F800171347 /* gameTableViewController.m */; };
+		62F8F9041CA3D6C700A867B5 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62F8F9031CA3D6C700A867B5 /* TestView.xib */; };
+		62F8F9071CA3D6DE00A867B5 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F8F9061CA3D6DE00A867B5 /* TestView.m */; };
+		62F8F90C1CA3F06000A867B5 /* MaxUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62F8F90B1CA3F06000A867B5 /* MaxUI.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		62047FDC1C802D2500C49858 /* Main1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main1.storyboard; sourceTree = "<group>"; };
 		620C4C751C23E7F6009DD956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/zhouwude.storyboard; sourceTree = "<group>"; };
 		620CEB901C2A6669002863D9 /* DestinationViewCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestinationViewCon.h; sourceTree = "<group>"; };
 		620CEB911C2A6669002863D9 /* DestinationViewCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestinationViewCon.m; sourceTree = "<group>"; };
@@ -115,6 +120,13 @@
 		62D1CCAC1BA2E5010082EAC3 /* customCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customCell.m; sourceTree = "<group>"; };
 		62DD9B371A4964F800171347 /* gameTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gameTableViewController.h; sourceTree = "<group>"; };
 		62DD9B381A4964F800171347 /* gameTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gameTableViewController.m; sourceTree = "<group>"; };
+		62F8F9031CA3D6C700A867B5 /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		62F8F9051CA3D6DE00A867B5 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		62F8F9061CA3D6DE00A867B5 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		62F8F9081CA3D80F00A867B5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		62F8F9091CA3D80F00A867B5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		62F8F90A1CA3D80F00A867B5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/zhouwude.strings; sourceTree = "<group>"; };
+		62F8F90B1CA3F06000A867B5 /* MaxUI.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MaxUI.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +211,7 @@
 				621C3A981A42EE4200CF0DEB /* Images.xcassets */,
 				621C3A9A1A42EE4200CF0DEB /* LaunchScreen.xib */,
 				621C3A951A42EE4200CF0DEB /* Main.storyboard */,
+				62047FDC1C802D2500C49858 /* Main1.storyboard */,
 				62B690EF1A43C72D00274A74 /* modelData.h */,
 				62B690F01A43C72D00274A74 /* modelData.m */,
 				62BA0B891A4A63E4007C5F05 /* secondViewController.h */,
@@ -220,6 +233,10 @@
 				62BA0B871A4A5CE5007C5F05 /* zhouwudeViewController.m */,
 				621C3AB11A42F66D00CF0DEB /* ZWDTableViewController.h */,
 				621C3AB21A42F66D00CF0DEB /* ZWDTableViewController.m */,
+				62F8F9051CA3D6DE00A867B5 /* TestView.h */,
+				62F8F9061CA3D6DE00A867B5 /* TestView.m */,
+				62F8F9031CA3D6C700A867B5 /* TestView.xib */,
+				62F8F90B1CA3F06000A867B5 /* MaxUI.xib */,
 			);
 			path = StoryBookDemo;
 			sourceTree = "<group>";
@@ -336,10 +353,13 @@
 				62BA0B901A4A68C0007C5F05 /* thirdViewController.xib in Resources */,
 				620C4C761C23E7F6009DD956 /* zhouwude.storyboard in Resources */,
 				621C3A971A42EE4200CF0DEB /* Main.storyboard in Resources */,
+				62F8F9041CA3D6C700A867B5 /* TestView.xib in Resources */,
 				62B690F61A43F26400274A74 /* BbsImg141576273566262_600*360.jpg in Resources */,
+				62047FDD1C802D2500C49858 /* Main1.storyboard in Resources */,
 				621C3A9C1A42EE4200CF0DEB /* LaunchScreen.xib in Resources */,
 				620CEBA71C2B7C5D002863D9 /* ZWDIntrinsicViewController.xib in Resources */,
 				6298CE501C2BFD030003297B /* UICoordinateSpaceCon.xib in Resources */,
+				62F8F90C1CA3F06000A867B5 /* MaxUI.xib in Resources */,
 				621C3A991A42EE4200CF0DEB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,6 +416,7 @@
 				620CEB921C2A6669002863D9 /* DestinationViewCon.m in Sources */,
 				620CEBA61C2B7C5D002863D9 /* ZWDIntrinsicViewController.m in Sources */,
 				62D1CCA71BA2D8CB0082EAC3 /* BCon.m in Sources */,
+				62F8F9071CA3D6DE00A867B5 /* TestView.m in Sources */,
 				627F04BD1A4D41BA0065B8BA /* GreenViewController.m in Sources */,
 				62B690F11A43C72D00274A74 /* modelData.m in Sources */,
 			);
@@ -424,6 +445,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				620C4C751C23E7F6009DD956 /* Base */,
+				62F8F90A1CA3D80F00A867B5 /* fr */,
 			);
 			name = zhouwude.storyboard;
 			sourceTree = "<group>";
@@ -432,6 +454,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				621C3A961A42EE4200CF0DEB /* Base */,
+				62F8F9091CA3D80F00A867B5 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -440,6 +463,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				621C3A9B1A42EE4200CF0DEB /* Base */,
+				62F8F9081CA3D80F00A867B5 /* fr */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";

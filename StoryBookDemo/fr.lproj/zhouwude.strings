@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "i4d-od-snn"; */
+"i4d-od-snn.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "kAx-tg-Ne6"; */
+"kAx-tg-Ne6.title" = "Title";
+
+/* Class = "UITableViewController"; title = "gameTitle"; ObjectID = "xcI-Ty-utg"; */
+"xcI-Ty-utg.title" = "gameTitle";
